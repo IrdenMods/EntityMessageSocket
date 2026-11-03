@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/genericScriptContexts/messageKeeper",
+		"value": "/scripts/polling/messageKeeper.lua"
+	}
+]

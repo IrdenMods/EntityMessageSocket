@@ -1,0 +1,7 @@
+{
+  "author": "D.",
+  "description": "This mod adds message socket through PGS.",
+  "friendlyName": "Entity Message Socket",
+  "name": "EntityMessageSocket",
+  "version": "1.0.2"
+}
