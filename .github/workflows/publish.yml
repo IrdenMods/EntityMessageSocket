@@ -1,0 +1,19 @@
+name: Generate Archive and Create Release
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '_metadata'
+      - 'CHANGELOG.md'
+
+jobs:
+  publish:
+    permissions: write-all
+    uses: IrdenMods/WorkflowRepo/.github/workflows/publish.yml@master
+    secrets: inherit
+    with:
+      release: true
+      upload_to_gd: true
+      notify_discord: true
+      mod_name: "EntityMessageSocket"
