@@ -15,5 +15,5 @@ jobs:
     with:
       release: true
       upload_to_gd: true
-      notify_discord: true
+      notify_discord: false
       mod_name: "EntityMessageSocket"
